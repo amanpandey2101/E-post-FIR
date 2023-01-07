@@ -7,7 +7,7 @@ import Dive from './Widgets/Dive/Dive'
 export default function Home() {
   return (
     <>
-    <div className="graphDiv flex h-screen flex-col p-10 pt-48 justify-items-center">
+    <div className="graphDiv flex h-screen flex-col p-10 pt-48 items-center">
             <Cards/>
             <Dive/>
     </div>

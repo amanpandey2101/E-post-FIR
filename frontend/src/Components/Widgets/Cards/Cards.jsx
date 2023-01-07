@@ -5,7 +5,7 @@ import './Cards.css'
 
 function Cards() {
   return (
-    <div className='Cards'>
+    <div className='Cards w-full'>
       {CardsData.map((card,index)=>{
         return(
           <div className="parentContainer">

@@ -1,0 +1,7 @@
+.diveBtn{
+        transition: all .3s ;
+}
+
+.diveBtn:hover{
+    letter-spacing: .5px;
+}
