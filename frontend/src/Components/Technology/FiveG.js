@@ -1,7 +1,5 @@
 import { React, useState } from 'react'
 import "./FiveG.css";
-import "animate.css/animate.min.css";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';

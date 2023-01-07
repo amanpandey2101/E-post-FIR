@@ -67,12 +67,12 @@ export default function Login() {
 
   return (
     <>
-      <div className=" flex items-stretch stroke-none ">
-        <div className="flex flex-col align-center justify-center  py-8 mx-auto md:h-screen lg:py-0">
-          <div className="flex flex-row shadow rounded-2xl md:mt-0 sm:max-w-md xl:p-0 ">
+      <div className=" flex  ">
+        <div className="flex flex-col align-center justify-center  py-8 mx-auto h-screen lg:py-0">
+          <div className="flex flex-row shadow rounded-2xl md:mt-0 sm:max-w-md w-[80vw]">
             <div className="p-6 space-y-4 tranistion-all delay-100 md:space-y-6 bg-white rounded-l-2xl backdrop-blur-lg sm:p-8 w-96">
               <h1 className="text-xl font-mono items-center justify-center flex font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-               <img src={Logo} className="w-10 p-1"/>
+               <img src={Logo} alt="" className="w-10 p-1"/>
                <p className="flex justify-center mx-3">
                 Log In
                </p>

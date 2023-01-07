@@ -22,7 +22,7 @@ export default function Navbar() {
     <>
       <div
         className={
-          scroll? "  navbar-scrolled p-3  z-30 delay-50" : "  navbar z-30 "
+          scroll? "  navbar-scrolled p-3 z-30 delay-50" : "  navbar z-30 "
         
         }
       >
@@ -39,21 +39,21 @@ export default function Navbar() {
           <ul className="nav-list text-black">
       
             <li className="nav-mem relative group cursor-pointer">
-              <i className="fa-solid fa-house"></i>
+              <i className="navcomp fa-solid fa-house"></i>
               <Link to="/home">Home</Link>
             </li>
             <li className="nav-mem relative group cursor-pointer">
-              <i className="fa-solid fa-info"></i>
+              <i className="navcomp fa-solid fa-info"></i>
              <Link to='/about'>About us</Link> 
             </li>
-            <li className="nav-mem relative group cursor-pointer">
+            <li className="navcomp nav-mem relative group cursor-pointer">
               <i className="fa-brands fa-envira"></i>
               Gallery
             </li>
           </ul>
           <div className="navbarmenu inline-block">
             <i className="fa-solid fa-caret-down relative left-4"></i>
-            <button className="menubutton mr-6  p-6">Options</button>
+            <button className="menubutton p-6">Options</button>
             
           <div className="dropdownmenu z-30 top-16 right-16   p-4 rounded-md ">
            <Link to='/dashboard' className="hover:bg-white rounded-md p-3" >Dashboard</Link>

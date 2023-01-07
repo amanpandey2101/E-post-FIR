@@ -26,7 +26,8 @@ function Card(props) {
 function CompactCard ({param,setExpanded}){
     const Png = param.png;
     return(
-        <motion.div className="CompactCard"
+     
+        <motion.div className="CompactCard "
         onClick={setExpanded}
         style={{
             background: param.color.backGround,
@@ -48,6 +49,7 @@ function CompactCard ({param,setExpanded}){
                 <span>Last 24 Hours</span>
             </div>
         </motion.div>
+        
     )
 }
 
