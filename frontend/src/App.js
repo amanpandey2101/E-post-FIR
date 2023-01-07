@@ -20,6 +20,8 @@ import FiveG from './Components/Technology/FiveG';
 import Web3 from './Components/Technology/Web3';
 import AI from './Components/Technology/AI';
 import Cloud from './Components/Technology/Cloud';
+import Sports from './Components/Sports/Sports';
+import About from './Components/Widgets/About';
 
 
 function App() {
@@ -45,6 +47,8 @@ function App() {
         <Route path='/web' element={<Web3/>}></Route>
         <Route path='/ai' element={<AI/>}></Route>
         <Route path='/cloud' element={<Cloud/>}></Route>
+        <Route path='/sports' element={<Sports/>}></Route>
+        <Route path='/about' element={<About/>}></Route>
       </Routes>
       {/* <Home /> */}
     </div>

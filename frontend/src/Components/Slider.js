@@ -15,11 +15,11 @@ export default function Slider() {
  },[])
   return (
     <>
-    <div className="relative top-20 font- text-6xl " data-aos="fade-right">
+    <div className="relative top-20 font-kanit text-5xl " data-aos="fade-right">
     <h1>Experience the new India</h1>
     </div>
  <div className="">
-      <div className="max-[700px]:h-[65vh] max-[500px]:w-[screen] relative mt-24 h-[90vh] pl-6 pr-6" data-aos="zoom-in" >
+      <div className="max-[700px]:h-[65vh] max-[500px]:w-[screen] max-[500px]:h-[50vh] relative mt-24 h-[90vh] pl-6 pr-6" data-aos="zoom-in" >
         <Carousel className="overflow-y-hidden">
           <div>
             <img

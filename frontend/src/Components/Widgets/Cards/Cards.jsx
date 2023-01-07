@@ -5,11 +5,11 @@ import './Cards.css'
 
 function Cards() {
   return (
-    <div className='Cards w-full'>
+    <div className='Cards'>
       {CardsData.map((card,index)=>{
         return(
           <div className="parentContainer">
-            <Card
+            <Card 
             title={card.title}
             
             color={card.color}
