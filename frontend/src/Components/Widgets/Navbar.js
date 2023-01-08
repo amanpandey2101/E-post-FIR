@@ -48,7 +48,7 @@ export default function Navbar() {
             </li>
             <li className="navcomp nav-mem relative group cursor-pointer">
               <i className="fa-brands fa-envira"></i>
-              Gallery
+              <Link to='/gallery'>Gallery</Link>
             </li>
           </ul>
           <div className="navbarmenu inline-block">
