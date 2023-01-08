@@ -90,7 +90,8 @@
   
   @media screen and (max-width: 1200px) {
     .ExpandedCard {
-      top: 2rem;
+      top: 40vh;
+      left: 50vw;
       height: 45vh;
       left: 6rem;
       padding: .5rem;

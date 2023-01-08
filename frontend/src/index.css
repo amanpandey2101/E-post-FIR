@@ -33,7 +33,7 @@
     transition: width .4s , height .5s, border-radius .5s , margin .5s;
     /* background-color: white; */
     /* background-image: linear-gradient(to right, #e59a4c, #ffa183, #ffb2b6, #ffc9de, #fbe2f7, #e8e9ff, #d2f1ff, #c5f7ff, #72f9f5, #00f8cf, #00f38e, #2be826); */
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(124,13,142,1) 0%, rgba(209,91,227,1) 38%, rgba(194,62,205,1) 51%, rgba(93,46,210,1) 100%, rgba(75,132,235,1) 100%);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(124,13,142,1) 0%, rgba(209,91,227,1) 38%, rgba(194,62,205,1) 51%, rgba(93,46,210,1) 100%, rgba(75,132,235,1) 100%); */
 }
 .navbar-scrolled{
     color: black;
@@ -204,6 +204,12 @@
 
 
 @media (max-width :850px ) {
+    .navcomp{
+        display: none;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
     .navbar-second{
         display: none;
     }
@@ -377,6 +383,7 @@
     outline: none;
     border-radius: 5px;
 }
+
 .signup button,
 .login2 button{
     width:60%;

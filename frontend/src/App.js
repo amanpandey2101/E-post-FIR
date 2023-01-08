@@ -22,6 +22,8 @@ import AI from './Components/Technology/AI';
 import Cloud from './Components/Technology/Cloud';
 import Sports from './Components/Sports/Sports';
 import About from './Components/Widgets/About';
+import Authors from './Components/Widgets/Authors/Authors';
+import AuthorAman from './Components/Widgets/Authors/AuthorAman';
 import Footer from './Components/Widgets/Footer/Footer';
 
 
@@ -33,7 +35,6 @@ function App() {
       <Routes>
          <Route path='/signin' element={<Login/>}></Route>
         {/* <Route path='/signin' element={<Login2/>}></Route> */}
-
         <Route path='/register' element={<Signup/>}></Route>
         <Route path='/home' element={<Home/> }></Route>
         <Route path='/' element={<Home/> }></Route>
@@ -51,8 +52,10 @@ function App() {
         <Route path='/cloud' element={<Cloud/>}></Route>
         <Route path='/sports' element={<Sports/>}></Route>
         <Route path='/about' element={<About/>}></Route>
+        <Route path='/anant' element={<Authors/>}></Route>
+        <Route path='/aman' element={<AuthorAman/>}></Route>
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
       {/* <Home /> */}
     </div>
   );

@@ -1,7 +1,18 @@
 .diveBtn{
         transition: all .3s ;
 }
-
+.diveCard{
+    display: flex;
+    flex-direction: row;
+}
 .diveBtn:hover{
     letter-spacing: .5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .diveCard{
+        flex-direction: column;
+        width: 100vw;
+        
+    }
 }
