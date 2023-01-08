@@ -43,9 +43,9 @@ export default function Arts() {
             </div>
           </div>
       </div>
-      <div className='relative top-28'>
+      {/* <div className='relative top-28'>
           <Category/>
-          </div>
+          </div> */}
 
       <footer className="border-t mt-32 pt-12 pb-32 px-4 lg:px-0">
             <div className="flex">

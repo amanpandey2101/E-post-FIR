@@ -13,9 +13,11 @@ export default function Web3() {
     <div className='web3'>
       {/* <h1 className='text2 absolute z-10 text-white top-[10vh] text-8xl left-[36vw] font-sans'> WEB 3.0 </h1> */}
       <img className=' h-[80vh] w-screen' src={require("./images/web33.jpg")} alt="" />
-      <h1 className='text1 absolute z-10 top-[15vh] text-white text-7xl left-8 font-serif' data-aos="fade-right">Leading India Next Generation  </h1>
-      <h1 className='text1 absolute z-10 top-[34vh] text-white text-6xl left-[10vw] font-serif' data-aos="fade-left">Internet</h1>
+      <div className='max-[1042px]:hidden'>
+      <h1 className='text1 absolute z-10 font-serif top-[15vh] text-white text-7xl max-[1466px]:text-6xl max-[1265px]:text-5xl left-8 ' data-aos="fade-right">Leading India Next Generation  </h1>
+      <h1 className='text1 absolute z-10 top-[34vh] text-white text-6xl left-[10vw] font-serif max-[1265px]:text-5xl ' data-aos="fade-left">Internet</h1>
       <h1 data-aos="fade-right" className='text1 absolute z-10 top-[50vh] text-white text-5xl left-[12vw] font-serif'>is Here</h1>
+      </div>
       <div className='bg-white w-screen' >
         <h1 className=' pt-12 text-5xl font-sans font-bold'>The Influence Of Web3 On Indian Internet & The Future It Holds</h1>
         <ul className='pl-10 text-xl font-medium pt-10 list-disc'>

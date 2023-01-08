@@ -94,7 +94,7 @@ export default class RegisterDetails extends Component {
   render() {
     const { isLoading, confirmPassword } = this.state;
     return (
-      <div className="flex bg-white p-5 rounded-2xl  shadow-md">
+      <div className="flex bg-white p-12 rounded-2xl shadow-md">
         <div className="Card flex flex-col left-5">
           <div className="flex w-full justify-center items-strech align-middle items-center">
             <img className="w-10 p-1" src={Logo} alt="" />

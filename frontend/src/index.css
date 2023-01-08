@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Courgette&family=Kanit:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
 
 .body{
