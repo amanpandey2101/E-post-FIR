@@ -11,8 +11,9 @@ export default function About() {
           <img src={Anant} alt="profilepic" className="pic" />
           </div>
           <div className="text">
+            <b>Anant Kumar</b>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              This is Anant from B.Tech CSE Sem I <br /> adipisicing elit.
               Voluptates distinctio numquam asperiores modi perspiciatis? Magnam
               maiores alias totam dolores possimus obcaecati dolorum ipsam
               exercitationem in, quaerat ad nostrum! At, deserunt.

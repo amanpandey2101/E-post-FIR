@@ -36,20 +36,19 @@ export default function Navbar() {
         <div
           className={mobile ? "navbar-second-visible " : "navbar-second pr-7"}
         >
-          <ul className="nav-list text-black">
-      
-            <li className="nav-mem relative group cursor-pointer">
-              <i className="navcomp fa-solid fa-house"></i>
-              <Link to="/home">Home</Link>
-            </li>
-            <li className="nav-mem relative group cursor-pointer">
-              <i className="navcomp fa-solid fa-info"></i>
-             <Link to='/about'>About us</Link> 
-            </li>
-            <li className="navcomp nav-mem relative group cursor-pointer">
-              <i className="fa-brands fa-envira"></i>
-              <Link to='/gallery'>Gallery</Link>
-            </li>
+          <ul className="flex nav-list text-black">
+            <Link to='/home' className="nav-mem relative group cursor-pointer p-2">
+              <i className="navcomp fa-solid fa-house m-2"></i>
+              Home
+            </Link>
+            <Link to='/about' className="nav-mem relative group cursor-pointer p-2">
+              <i className="navcomp fa-solid fa-info m-2"></i>
+             About Us
+            </Link>
+            <Link to='/gallery' className="nav-mem relative group cursor-pointer p-2">
+              <i className="navcomp fa-brands fa-envira m-2"></i>
+              Gallery
+            </Link>
           </ul>
           <div className="navbarmenu inline-block">
             <i className="fa-solid fa-caret-down relative left-4"></i>

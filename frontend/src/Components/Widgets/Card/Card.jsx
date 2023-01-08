@@ -45,8 +45,8 @@ function CompactCard ({param,setExpanded}){
             </div>
             <div className="detail">
                 <Png/>
-                <span>${param.value}</span>
-                <span>Last 24 Hours</span>
+                <span>{param.value}</span>
+                <span>Annual Change</span>
             </div>
         </motion.div>
         
@@ -56,6 +56,7 @@ function CompactCard ({param,setExpanded}){
 // Expanded card
 
 function ExpandedCard ({param,setExpanded}){
+  console.log(param);
     const data = {
         options: {
             chart: {
@@ -93,7 +94,7 @@ function ExpandedCard ({param,setExpanded}){
               show: true,
             },
             xaxis: {
-              type: "date",
+              type: "dateTime",
               categories: [
                 "2018-09-19",
                 "2018-09-19",
@@ -120,9 +121,9 @@ function ExpandedCard ({param,setExpanded}){
         </div>
           <span>{param.title}</span>
         <div className="chartContainer">
-          <Chart options={data.options} series={param.series} type="area" />
+          <Chart options={param.options} series={param.series} type="area" />
         </div>
-        <span>Last 24 hours</span>
+        <span>Last 5 Years</span>
       </motion.div>
     )
 
