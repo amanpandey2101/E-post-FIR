@@ -1,33 +1,28 @@
 .Register-Page {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  flex-direction: row;
   transition: all 0.3s ease-in-out;
 }
 .first-div {
   transition: all .5s ease-in-out;
   margin-left: 10%;
-  margin-top: 8%;
+  margin-top: 7rem;
   position: fixed;
+  
 }
 .first-p{
-    display: flex;
-    width: 50%;
-    height: 100vh;
-    overflow: hidden;
+   
+    width: 60%;
+   
 }
 .second-p{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    padding-top: 10rem;
-    padding: 10rem;
-    margin: 10rem;
-    width:  100%;
-    height: 100vh;
-    overflow: hidden;
-    padding-top: 5rem;
+   
+    top:12rem;     
+    width:  90%;
+    padding-top:5rem;
+    padding-right: 4rem;
+    padding-left:2rem;
+    height: 10vh;
+    
     
 }
 .first-div-hidden {

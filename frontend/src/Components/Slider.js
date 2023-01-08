@@ -15,7 +15,7 @@ export default function Slider() {
  },[])
   return (
     <>
-    <div className="relative top-20 font-kanit text-5xl " data-aos="fade-right">
+    <div className="relative top-20 font-serif text-6xl text-orange-500" data-aos="fade-right">
     <h1>Experience the new India</h1>
     </div>
  <div className="">

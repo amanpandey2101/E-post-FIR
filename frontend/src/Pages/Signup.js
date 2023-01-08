@@ -46,11 +46,11 @@ export default function Signup() {
     setIndex(index + 1);
   };
   return (
-    <div className="Register-Page">
+    <div className="Register-Page grid md:grid-cols-2 grid-cols-1 h-screen ">
       <div className="first-p">
         <div
           className={
-            otpSent ? "flex first-div-hidden" : "flex first-div items-stretch"
+            otpSent ? "first-div-hidden" : " first-div"
           }
         >
           <RegisterDetails
@@ -80,7 +80,7 @@ export default function Signup() {
           email={email}
           /> */}
         </div>
-        <div className={otpSent ? "flex second-div" : "flex second-div-hidden"}>
+        <div className={otpSent ? "second-div" : "second-div-hidden"}>
           <Otp
             setOTP={setVCode}
             otp={vCode}
@@ -95,7 +95,7 @@ export default function Signup() {
           />
         </div>
       </div>
-      <div className="second-p">
+      <div className="second-p max-[768px]:hidden">
         <StepProgressBar step={index}/>
         <RegInfo index={index} pNumber={pNumber} response = {response} resCode = {resCode} />
       </div>

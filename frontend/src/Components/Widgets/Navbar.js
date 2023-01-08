@@ -38,32 +38,31 @@ export default function Navbar() {
         >
           <ul className="nav-list text-black">
       
-            <Link to='./home' className="nav-mem relative group cursor-pointer p-4 flex items-center">
-              <i className="navcomp fa-solid fa-house m-2"></i>
-              <p>Home</p>
-            </Link>
-            <Link to='./about' className="nav-mem relative group cursor-pointer p-4 flex items-center">
-              <i className="navcomp fa-solid fa-info m-2"></i>
-             <p className="about">About Us</p>
-            </Link>
-            <Link to='./gallery' className="nav-mem relative group cursor-pointer p-4 flex items-center">
-              <i className="fa-brands fa-envira m-2"></i>
+            <li className="nav-mem relative group cursor-pointer">
+              <i className="navcomp fa-solid fa-house"></i>
+              <Link to="/home">Home</Link>
+            </li>
+            <li className="nav-mem relative group cursor-pointer">
+              <i className="navcomp fa-solid fa-info"></i>
+             <Link to='/about'>About us</Link> 
+            </li>
+            <li className="navcomp nav-mem relative group cursor-pointer">
+              <i className="fa-brands fa-envira"></i>
               Gallery
-            </Link>
+            </li>
           </ul>
           <div className="navbarmenu inline-block">
             <i className="fa-solid fa-caret-down relative left-4"></i>
-            <button className="menubutton p-6">Options</button>
-            
+            <button className="menubutton p-6">Account</button>
           <div className="dropdownmenu z-30 top-16 right-16   p-4 rounded-md ">
            <Link to='/dashboard' className="hover:bg-white rounded-md p-3" >Dashboard</Link>
-           <a className="hover:bg-white rounded-md p-3" href="/">About us</a>
-           <a className="hover:bg-white rounded-md p-3" href="/">Contact us</a>
-           <a className="hover:bg-white rounded-md p-3" href="/">Account settings</a>
+           <Link className="hover:bg-white rounded-md p-3" to="/signin">Login</Link>
+           <Link className="hover:bg-white rounded-md p-3" to="/register">Register</Link>
+           <Link className="hover:bg-white rounded-md p-3" to="/dashboard">Account settings</Link>
           </div>                         
           </div>
 
-            <div className="dropdown dropdown-end profile-icon pt-4">
+            {/* <div className="dropdown dropdown-end profile-icon pt-4">
               <label tabIndex={0} className="">
                 <img
                   className="h-8 w-8 rounded-full"
@@ -82,7 +81,7 @@ export default function Navbar() {
                   <Link to="/register">Register</Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="hamburger mr-3">
             <i className="fa-solid fa-bars" onClick={handleClick}></i>
