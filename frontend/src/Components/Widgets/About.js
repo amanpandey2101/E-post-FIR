@@ -1,14 +1,14 @@
 import React from 'react'
-import Aman from  './images/amity_uniform_1-min-removebg-preview.png'
+
 
 export default function About() {
   return (
-    <prevAbout/>
+    <PrevAbout/>
   )
 }
 
 
-function prevAbout(){
+function PrevAbout(){
     return(
         <div>
       <div class="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">

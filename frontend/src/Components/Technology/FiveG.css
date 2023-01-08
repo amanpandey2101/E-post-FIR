@@ -14,50 +14,6 @@
     }
 }
 
-/* .animationh{
-
-    opacity: 0;
-    transition: all 2s l;
-    
-
-}
-.show{  
-   opacity: 1;
-/* } */
-
- /* @media(prefers-reduced-motion) {
-    .hidden2{
-        transition: none;
-    }
-} */
-
-
-/* .logo:nth-child(2){
-    transition-delay: 400ms;
-}
-.logo:nth-child(3){
-    transition-delay: 600ms;
-}
-.logo:nth-child(4){
-    transition-delay: 800ms;
-} */
-
-
-/* .image-hover{
-    opacity: 0;
-}
-.image-hover:hover{
-    opacity: 1;
-    transition:.8s ease-in-out;
-}
-.image-hover2{
-    opacity: 0;
-}
-.image-hover2:hover{
-    opacity: 1;
-    transition:.8s ease-in-out;
-} */
-
 .web3 .text1{
     text-transform: uppercase;
     text-align: center;
