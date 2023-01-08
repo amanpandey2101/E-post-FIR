@@ -5,7 +5,10 @@ import { Link } from 'react-router-dom'
 
 export default function Dive() {
   return (
-    <div className='diveCard flex flex-row h-3/5 mt-10 rounded-2xl items-center shadow-md p-4 w-1/2 bg-white '>
+    <div className=" flex diveContainer w-screen bg-transparent items-center">
+
+    
+    <div className=' diveCard mx-10 flex flex-row h-3/5 mt-10 rounded-2xl items-center shadow-md p-4 w-1/2 bg-white '>
         <img src={MessageIcon}/>
         <div className='flex flex-col w-full  items-center flex-wrap p-4'>
 
@@ -24,6 +27,7 @@ export default function Dive() {
         </Link>
         </div>
         </div>
+    </div>
     </div>
   )
 }

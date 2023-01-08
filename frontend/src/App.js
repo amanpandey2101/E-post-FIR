@@ -22,6 +22,7 @@ import AI from './Components/Technology/AI';
 import Cloud from './Components/Technology/Cloud';
 import Sports from './Components/Sports/Sports';
 import About from './Components/Widgets/About';
+import Footer from './Components/Widgets/Footer/Footer';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         <Route path='/sports' element={<Sports/>}></Route>
         <Route path='/about' element={<About/>}></Route>
       </Routes>
+      {/* <Footer/> */}
       {/* <Home /> */}
     </div>
   );

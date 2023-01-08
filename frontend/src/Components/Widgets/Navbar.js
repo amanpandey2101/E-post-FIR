@@ -38,18 +38,18 @@ export default function Navbar() {
         >
           <ul className="nav-list text-black">
       
-            <li className="nav-mem relative group cursor-pointer">
-              <i className="navcomp fa-solid fa-house"></i>
-              <Link to="/home">Home</Link>
-            </li>
-            <li className="nav-mem relative group cursor-pointer">
-              <i className="navcomp fa-solid fa-info"></i>
-             <Link to='/about'>About us</Link> 
-            </li>
-            <li className="navcomp nav-mem relative group cursor-pointer">
-              <i className="fa-brands fa-envira"></i>
+            <Link to='./home' className="nav-mem relative group cursor-pointer p-4 flex items-center">
+              <i className="navcomp fa-solid fa-house m-2"></i>
+              <p>Home</p>
+            </Link>
+            <Link to='./about' className="nav-mem relative group cursor-pointer p-4 flex items-center">
+              <i className="navcomp fa-solid fa-info m-2"></i>
+             <p className="about">About Us</p>
+            </Link>
+            <Link to='./gallery' className="nav-mem relative group cursor-pointer p-4 flex items-center">
+              <i className="fa-brands fa-envira m-2"></i>
               Gallery
-            </li>
+            </Link>
           </ul>
           <div className="navbarmenu inline-block">
             <i className="fa-solid fa-caret-down relative left-4"></i>
