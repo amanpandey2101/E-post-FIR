@@ -14,7 +14,7 @@ module.exports = {
          'roboto':['Roboto Slab', 'serif'],
          'kanit':['Kanit', 'sans-serif'],
          'courgette':['Courgette', 'cursive'],
-        },
+        }
       },
     },
  },
