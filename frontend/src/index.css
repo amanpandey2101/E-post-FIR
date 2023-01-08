@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Courgette&family=Kanit:wght@300&family=Roboto+Slab:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Courgette&family=Kanit:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
 
 .body{
@@ -460,10 +460,13 @@
 .navbarmenu:hover .dropdownmenu{
     display: inline-grid;
     position: absolute;
-    background: rgb(241, 160, 0);
+    background: rgb(241, 160, 0);  
     
-
-   
-    
+}
+.slider-text{
+    text-shadow: 2px 2px 6px #f3480f;
+}
+.cat-text{
+    text-shadow: 2px 2px 6px #f3480f;
 }
 

@@ -10,7 +10,7 @@ export default function Category() {
     return (
         <div>
             <section className="py-6 relative">
-                <h1 className=" font-bold font-sans text-orange-500 sm:text-6xl text-4xl pb-10" data-aos="fade-left">Dive into Immersive Experience from India</h1>
+                <h1 className="cat-text font-bold font-sans text-[#882de8] lg:text-6xl md:text-5xl text-4xl pb-10" data-aos="fade-left">Dive into Immersive Experience from India</h1>
                 <div className="container flex flex-col justify-center p-4 mx-auto" >
                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2" >
                         <div data-aos="zoom-out">

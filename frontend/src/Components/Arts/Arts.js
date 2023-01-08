@@ -47,7 +47,7 @@ export default function Arts() {
           <Category/>
           </div> */}
 
-      <footer className="border-t mt-32 pt-12 pb-32 px-4 lg:px-0">
+      {/* <footer className="border-t mt-32 pt-12 pb-32 px-4 lg:px-0">
             <div className="flex">
 
               <div className="w-full md:w-1/3 lg:w-1/4">
@@ -71,7 +71,7 @@ export default function Arts() {
 
             </div>
           </footer>
-      
+       */}
     </>
   )
 }

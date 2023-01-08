@@ -9,7 +9,7 @@ function MainDash() {
     <div className='MainDash'
     > 
       <h1>Dashboard</h1>
-      <Cards/>
+      <Cards />
       <Table/>
     </div>
   )

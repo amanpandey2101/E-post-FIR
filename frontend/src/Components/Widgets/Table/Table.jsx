@@ -8,6 +8,7 @@ import TableRow from "@mui/material/TableRow";
 import Paper from '@mui/material/Paper';
 import './Table.css';
 
+
 function createData(name, date,trackingId,status) {
   return { name, date,trackingId,status};
 }
@@ -41,6 +42,7 @@ const rows = [
 ];
 
 export default function BasicTable() {
+  
   return (
     <div className="Table">
 

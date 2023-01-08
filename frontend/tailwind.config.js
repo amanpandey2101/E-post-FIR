@@ -8,18 +8,16 @@ module.exports = {
   },
   daisyui: {
     theme: {
-      extend: {
-        fontFamily:{
-  
-         'roboto':['Roboto Slab', 'serif'],
-         'kanit':['Kanit', 'sans-serif'],
-         'courgette':['Courgette', 'cursive'],
-        }
-      },
+      extend: {},
+      fontFamily:{
+        'roboto':["Roboto Slab", "serif"],
+        'kanit':["Kanit", "sans-serif"],
+        'courgette':["Courgette", "cursive"]
+       },
     },
  },
   plugins: [require("daisyui"),
   require('flowbite/plugin'),
   require("@tailwindcss/aspect-ratio"),
   require('tw-elements/dist/plugin')],
-}
+};
