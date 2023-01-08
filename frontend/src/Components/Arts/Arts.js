@@ -1,6 +1,5 @@
 import React from 'react'
 import ArtsNav from './ArtsNav'
-import Category from '../Category'
 export default function Arts() {
   return (
     <>

@@ -1,8 +1,5 @@
 import React from "react";
 import { Carousel } from "flowbite-react";
-import News from "./News";
-import Cards from "./Cards";
-import { Link } from "react-router-dom";
 import Category from "./Category";
 import AOS from 'aos';
 import 'aos/dist/aos.css';

@@ -17,7 +17,7 @@ export default function Infrastructure() {
           <section className="dark:bg-gray-800 dark:text-gray-100 ">
             <div className="container max-w-6xl mx-auto space-y-6 sm:space-y-12">
               <a
-                href="https://www.britannica.com/place/Ajanta-Caves"
+                href=" "
                 target={"_blank"}
                 rel="noopener noreferrer"
                 className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl"
@@ -47,7 +47,7 @@ export default function Infrastructure() {
                 />
               </a>
               <a
-                href="https://en.wikipedia.org/wiki/Mahabodhi_Temple"
+                href=" "
                 target={"_blank"}
                 rel="noopener noreferrer"
                 className="block max-w-sm gap-3 mx-auto sm:max-w-full max-[1024px]:flex max-[1024px]:flex-col-reverse group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900  shadow-2xl rounded-md"
@@ -76,7 +76,7 @@ export default function Infrastructure() {
                 </div>
               </a>
               <a
-                href="https://en.wikipedia.org/wiki/Ellora_Caves"
+                href=" "
                 target={"_blank"}
                 rel="noopener noreferrer"
                 className="block max-w-sm gap-3 mx-auto sm:max-w-full max-[1024px]:flex max-[1024px]:flex-col-reverse group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl"
@@ -105,7 +105,7 @@ export default function Infrastructure() {
                 </div>
               </a>
               <a
-                href="https://en.wikipedia.org/wiki/Agra_Fort"
+                href=" "
                 target={"_blank"}
                 rel="noopener noreferrer"
                 className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl"
@@ -138,7 +138,7 @@ export default function Infrastructure() {
                 />
               </a>
               <a
-                href="https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+                href=" "
                 target={"_blank"}
                 rel="noopener noreferrer"
                 className="block max-w-sm gap-3 mx-auto sm:max-w-full max-[1024px]:flex max-[1024px]:flex-col-reverse group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl"
@@ -168,7 +168,7 @@ export default function Infrastructure() {
                 </div>
               </a>
               <a
-                href="https://en.wikipedia.org/wiki/Kaziranga_National_Park"
+                href=" "
                 target={"_blank"}
                 rel="noopener noreferrer"
                 className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl"
@@ -203,7 +203,7 @@ export default function Infrastructure() {
                 />
               </a>
               <a
-                href="https://en.wikipedia.org/wiki/Khajuraho_Group_of_Monuments"
+                href=" "
                 target={"_blank"}
                 rel="noopener noreferrer"
                 className="block max-w-sm gap-3 mx-auto sm:max-w-full max-[1024px]:flex max-[1024px]:flex-col-reverse group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl"
@@ -237,7 +237,7 @@ export default function Infrastructure() {
                 </div>
               </a>
               <a
-                href="https://en.wikipedia.org/wiki/Elephanta_Caves"
+                href=" "
                 target={"_blank"}
                 rel="noopener noreferrer"
                 className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl"

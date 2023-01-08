@@ -21,12 +21,6 @@ export default function AI() {
             </div>
 
 
-            {/* <div className='absolute top-16 p-10 text-white'>
-                <h1 className='dawn flex justify-center pt-2 lg:text-7xl font-serif  overflow-hidden md:text-5xl sm:text-4xl' data-aos="fade-down-right ">INDIA AND</h1>
-                <h1 className='dawn relative top-[30vh]  lg:text-6xl md:text-5xl sm:text-4xl font-serif' data-aos="fade-left">ARTIFICIAL INTELLIGENCE </h1>
-                <h1 className='dawn pt-10 lg:text-5xl md:text-4xl sm:text-3xl font-serif relative top-[30vh]' data-aos="fade-up-left">REVOLUTION</h1>
-            </div> */}
-
             <section className="dark:bg-gray-800 dark:text-gray-100 ">
                 <div className="container max-w-6xl mx-auto space-y-6 sm:space-y-12 mt-5" >
                     <a href="https://www.britannica.com/place/Ajanta-Caves" target={"_blank"} rel="noopener noreferrer" className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline  dark:bg-gray-900 shadow-2xl">
