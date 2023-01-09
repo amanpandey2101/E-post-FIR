@@ -1,7 +1,6 @@
-import { React, useState } from 'react'
+import { React } from 'react'
 import "./FiveG.css";
 // import "animate.css/animate.min.css";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -35,14 +34,14 @@ export default function FiveG() {
   return (
     <>
       <div>
-        <div>
+        <div className=' '>
 
-          <img className=' sm:w-screen sm:h-screen w-full' src={require('./images/halo.jpg')} alt="" />
+          <img className='h-screen w-screen max-[600px]:h-[65vh]:' src={require('./images/halo.jpg')} alt="" />
           <img className='absolute top-16 h-24'  src={require("./images/digitalindia-removebg-preview.png")} alt="" />
         </div>
-        <div className='animationh dawn absolute top-44 text-white lg:text-8xl md:text-6xl sm:text-5xl right-0 left-0  '>
-          <h1 className='h-60'>DAWN OF NEW ERA</h1>
-         <div className='lg:text-5xl h-20 md:text-4xl sm:text-3xl max-[640px]:hidden'>
+        <div className='animationh dawn absolute top-44 text-4xl text-white lg:text-8xl md:text-6xl sm:text-5xl right-0 left-0  '>
+          <h1 className='h-60 max-[600px]:h-48'>DAWN OF NEW ERA</h1>
+         <div className='lg:text-5xl h-20 max-[600px]:h-28 md:text-4xl text-3xl'>
           <Typewriter 
             words={['Step Into the World Where Everything,']}
             loop={50}
@@ -52,7 +51,7 @@ export default function FiveG() {
             deleteSpeed={40}
             delaySpeed={1000}/>
             </div> 
-            <div className='text-5xl md:text-4xl sm:text-3xl max-[640px]:hidden'>
+            <div className='text-2xl md:text-4xl sm:text-3xl'>
           <Typewriter 
 
             words={["Everyone, and Every place is Connected."]}
@@ -64,9 +63,9 @@ export default function FiveG() {
             delaySpeed={3000}/> 
             </div>
         </div>
-        <div className=' grid grid-cols-4 p-10 bg-white max-[1350px]:grid max-[1300px]:grid-cols-3 max-[1049px]:grid-cols-2 ' >
+        <div className=' grid grid-cols-4 p-10 bg-white max-[1350px]:grid max-[1300px]:grid-cols-3 max-[1049px]:grid-cols-2 max-[765px]:grid-cols-1  max-[765px]:flex max-[765px]:justify-center max-[765px]:flex-col' >
 
-          <div className="animationh shadow-slate-600 shadow-2xl rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-4 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl " data-aos="zoom-out">
+          <div className="animationh shadow-slate-600 shadow-2xl rounded-lg h-auto w-80 md:w-80 cursor-pointer p-4 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl mb-10 mx-auto " data-aos="zoom-out">
             <a href="/" className="w-full block h-full">
               <img alt="blog" src={require("./images/speed.jpg")} className="h-[13rem] w-full rounded-md" />
               <div className="w-full">
@@ -82,8 +81,8 @@ export default function FiveG() {
             </a>
           </div>
           
-          <div className="animationh shadow-slate-600 shadow-2xl rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-4 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl" data-aos="zoom-out">
-            <a href="/" className="w-full block h-full">
+          <div className="animationh shadow-slate-600 shadow-2xl rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-4 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl mb-10 mx-auto" data-aos="zoom-out">
+            <a href="/" className="w-full block h-full ">
               <img alt="blog" src={require('./images/latency.jpg')} className="h-[13rem] rounded-md w-full object-cover" />
               <div className="w-full">
 
@@ -97,7 +96,7 @@ export default function FiveG() {
               </div>
             </a>
           </div>
-          <div className="animationh overflow-hidden shadow-slate-600 shadow-2xl rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-4 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl" data-aos="zoom-out">
+          <div className="animationh overflow-hidden shadow-slate-600 shadow-2xl rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-4 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl mb-10 mx-auto" data-aos="zoom-out">
             <a href="/" className="w-full block h-full">
               <img alt="blog" src={require("./images/5Gdensity.jpg")} className="h-[13rem] rounded-md w-full object-cover" />
               <div className="w-full">
@@ -111,7 +110,7 @@ export default function FiveG() {
               </div>
             </a>
           </div>
-          <div className="animationh relative align-middle overflow-hidden shadow-slate-600 shadow-2xl rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-4 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl  max-[1049px]:pt-10" data-aos="zoom-out">
+          <div className="animationh relative align-middle overflow-hidden shadow-slate-600 shadow-2xl rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-4 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl  max-[1049px]:pt-10 mb-10 mx-auto" data-aos="zoom-out">
             <a href="/" className="w-full block h-full">
               <img alt="blog" src={require("./images/security.jpg")} className="h-[13rem] rounded-md w-full object-cover" />
               <div className="w-full">
@@ -137,13 +136,13 @@ export default function FiveG() {
         <img className='block mt-10 mb-10 ' src={require("./images/jio2 (2).png")} alt="" />
       </div>
       <div className='bg-white'>
-        <h1 className='font-bold text-6xl font-sans bg-white  pt-10 ' data-aos="fade-right">REIMAGINE THE WAY</h1>
-        <h1 className='font-bold text-6xl font-sans bg-white pb-16 pt-16' data-aos="fade-left">YOU WORK, LIVE, AND CHILL</h1>
+        <h1 className='font-bold lg:text-6xl md:text-5xl text-4xl font-mono bg-white text-[#133aff] pt-10 ' data-aos="fade-right">REIMAGINE THE WAY</h1>
+        <h1 className='font-bold lg:text-6xl md:text-5xl text-4xl   bg-white text-[#133aff] font-mono shadow-sky-600 pb-16 pt-16' data-aos="fade-left">YOU WORK, LIVE, AND CHILL</h1>
 
       </div>
-      <div className='play-button grid sm:grid-cols-4 grid-cols-2 p-10 bg-[#0F3CC9]'>
+      <div className='play-button grid grid-cols-4 max-[920px]:grid-cols-2 p-10 bg-[#0F3CC9] w-[100vw] max-[708px]:flex max-[708px]:flex-col max-[708px]:justify-center'>
 
-        <div className="animationh overflow-hidden shadow-lg rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-2 bg-white backdrop-blur-4xl transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-3xl" data-aos="zoom-in">
+        <div className="animationh overflow-hidden shadow-lg rounded-lg h-auto w-80 md:w-80 cursor-pointer mx-auto mb-5 p-2 bg-white backdrop-blur-4xl transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-3xl " data-aos="zoom-in">
           <a href="/" className="w-full block h-full" >
 
             <img alt="blog" src={require("./images/video.png")} className="h-[13rem] w-full rounded-md" />
@@ -160,7 +159,7 @@ export default function FiveG() {
         {/* <img className=' image-hover z-50 h-[13rem] absolute w-[20rem] rounded-md mt-2 left-[3.75rem]' src={require("./images/play.jpeg")} alt="" /> */}
 
 
-        <div className="animationh shadow-lg rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-2 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl" data-aos="zoom-in">
+        <div className="animationh shadow-lg rounded-lg h-auto w-80 md:w-80 cursor-pointer mx-auto mb-5 p-2 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl" data-aos="zoom-in">
           <a href="/" className="w-full block h-full" >
             <img alt="blog" src={require('./images/virtualreality.png')} className="h-[13rem] rounded-md w-full object-cover" />
             <div className="w-full">
@@ -174,7 +173,7 @@ export default function FiveG() {
           </a>
           {/* <img className=' image-hover2 z-50 h-[13rem] absolute bottom-[5.5rem] right-0 w-[20rem] rounded-md mt-2 ' src={require("./images/play.jpeg")} alt="" /> */}
         </div>
-        <div className="animationh overflow-hidden shadow-lg rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-2 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl" data-aos="zoom-in">
+        <div className="animationh overflow-hidden shadow-lg rounded-lg h-auto w-80 md:w-80 cursor-pointer mx-auto mb-5 p-2 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl" data-aos="zoom-in">
           <a href="/" className="w-full block h-full" >
             <img alt="blog" src={require("./images/movies.png")} className="h-[13rem] rounded-md w-full object-cover" />
             <div className="w-full">
@@ -186,7 +185,7 @@ export default function FiveG() {
             </div>
           </a>
         </div>
-        <div className="animationh overflow-hidden shadow-lg rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-2 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl" data-aos="zoom-in">
+        <div className="animationh overflow-hidden shadow-lg rounded-lg h-auto w-80 md:w-80 cursor-pointer mx-auto mb-5 p-2 bg-indigo-50 transition duration-400 ease-in-out transform hover:translate-y-5 hover:shadow-2xl" data-aos="zoom-in">
           <a href="/" className="w-full block h-full" >
             <img alt="blog" src={require("./images/shopping.png")} className="h-[13rem] rounded-md w-full object-cover" />
             <div className="w-full">
@@ -204,36 +203,39 @@ export default function FiveG() {
 
 
       <div className=' justify-center bg-white '>
-        <img className='relative left-[70vh] h-72' src={require("./images/Airtel-5G-PLus-1.webp")} alt="" />
+        <div className='flex justify-center'>
+        <img className='relative h-72' src={require("./images/Airtel-5G-PLus-1.webp")} alt="" />
+        </div>
         <section className="dark:bg-gray-800 dark:text-gray-100 ">
-          <div className="animationh container max-w-7xl mx-auto space-y-6 sm:space-y-12" data-aos="fade-up">
-            <a href="https://www.britannica.com/place/Ajanta-Caves" target={"_blank"} rel="noopener noreferrer" className="block max-w-sm gap-4 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl">
+          <div className="animationh container mx-auto space-y-6 sm:space-y-12 " data-aos="fade-up">
+            <a href=" " target={"_blank"} rel="noopener noreferrer" className="block max-w-sm gap-4 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl">
               <div className="p-6 space-y-2 lg:col-span-5">
-                <h3 className="text-2xl font-medium sm:text-6xl relative top-6 pt-10 pl-10"> Upto 30x Faster</h3>
+                <h3 className="text-4xl font-medium lg:text-6xl md:text-5xl relative top-6 pt-10 pl-10"> Upto 30x Faster</h3>
                 <img className=' h-16 relative left-2 top-28' src={require("./images/downloadicon.png")} alt="" />
-              <h1 className=' text-red-700 text-5xl relative pt-12 left-12 '>Download Speed</h1>
+              <h1 className=' text-red-700 lg:text-6xl sm:text-5xl text-4xl relative pt-12 left-12 '>Download Speed</h1>
+              <img src={require("./images/30x_faster.gif")} alt="" className="relative left-96 w-[40vh] h-68 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500 max-[800px]:visually-hidden" />
               </div>
-              <img src={require("./images/30x_faster.gif")} alt="" className="relative left-96 w-[40vh] h-68 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500" />
+              
             </a>
           </div>
           <div className="animationh container max-w-7xl mx-auto space-y-6 sm:space-y-12 mt-8" data-aos="fade-up">
-            <a href="https://www.britannica.com/place/Ajanta-Caves" target={"_blank"} rel="noopener noreferrer" className="block max-w-sm gap-4 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl">
+            <a href=" " target={"_blank"} rel="noopener noreferrer" className="block max-w-sm gap-4 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl">
               <div className="p-6 space-y-2 lg:col-span-5">
-                <h3 className="text-2xl font-medium sm:text-6xl relative top-6 pt-10 pl-10"> Watch High Quality</h3>
+                <h3 className="font-medium lg:text-6xl sm:text-5xl text-4xl relative top-6 pt-10 pl-10"> Watch High Quality</h3>
                 <img className=' h-16 relative left-2 top-16' src={require("./images/playairtel.png")} alt="" />
-              <h1 className=' text-red-700 text-5xl relative pt-10 left-2 bottom-9'>4K videos</h1>
+              <h1 className=' text-red-700 lg:text-6xl sm:text-5xl text-4xl relative pt-10 left-2 bottom-9'>4K videos</h1>
               </div>
-              <img src="https://airtel-cms.s3.ap-south-1.amazonaws.com/5g-network/4K_videos.gif" alt="" className="relative left-96 w-[40vh] h-68 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500" />
+              <img src="https://airtel-cms.s3.ap-south-1.amazonaws.com/5g-network/4K_videos.gif" alt="" className="relative left-96 w-[40vh] h-68 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500 max-[800px]:visually-hidden" />
             </a>
           </div>
           <div className="animationh container max-w-7xl mx-auto space-y-6 sm:space-y-12 mt-8" data-aos="fade-up">
-            <a href="https://www.britannica.com/place/Ajanta-Caves" target={"_blank"} rel="noopener noreferrer" className="block max-w-sm gap-4 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl">
+            <a href=" " target={"_blank"} rel="noopener noreferrer" className="block max-w-sm gap-4 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl">
               <div className="p-6 space-y-2 lg:col-span-5">
-                <h3 className="text-2xl font-medium sm:text-6xl relative top-6 pt-10 pl-10"> Step Into</h3>
+                <h3 className=" font-medium lg:text-6xl sm:text-5xl text-4xl relative top-6 pt-10 pl-10"> Step Into</h3>
                 <img className=' h-16 relative left-2 top-16' src={require("./images/vrairtel.webp")} alt="" />
-              <h1 className=' text-red-700 text-5xl relative pt-10 left-10 bottom-9'>Virtual worlds</h1>
+              <h1 className=' text-red-700 lg:text-6xl sm:text-5xl text-4xl relative pt-10 left-10 bottom-9'>Virtual worlds</h1>
               </div>
-              <img src="https://www.airtel.in/5g-network/assets/virtual_worlds.gif" alt="" className="relative left-96 w-[40vh] h-68 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500" />
+              <img src="https://www.airtel.in/5g-network/assets/virtual_worlds.gif" alt="" className="relative left-96 w-[40vh] h-68 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500 max-[800px]:visually-hidden" />
             </a>
           </div>
 

@@ -59,7 +59,7 @@ export default function Technology() {
     </div>
 <section className="py-6 dark:bg-gray-800 relative " data-aos="zoom-in">
                 <div className="container flex justify-center p-4 mx-auto">
-                    <div className="grid grid-cols-1 grid-rows-4 gap-10 mx-8 lg:grid-cols-2 sm:grid-cols-2">
+                    <div className="grid grid-cols-1 max-[600px]:grid-rows-4 gap-10 mx-8 lg:grid-cols-2 sm:grid-cols-2">
                         <div>
                             <a href="/web">
                                 <img
