@@ -205,6 +205,9 @@
 
 
 @media (max-width :850px ) {
+    .signupLayoutLogin {
+        display: none;
+    }
     .navcomp{
         display: none;
     }
@@ -471,5 +474,8 @@
 }
 .cat-text{
     text-shadow: 2px 2px 6px #f3480f;
+}
+.noView{
+    display: none;
 }
 
