@@ -31,7 +31,7 @@ function PrevAbout(){
                             <p className="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Aman Kumar Pandey</p>
                         </div>
                         <div className="p-4 pb-6 flex justify-center flex-col items-center" data-aos="zoom-in">
-                            <img className="md:block h-60 md:h-[35vh] rounded-xl w-55 md:w-64" src={require('./images/anant.jpg')} alt="" />
+                            <img className="md:block h-60 md:h-[35vh] rounded-xl w-48 md:w-56" src={require('./images/anant.jpg')} alt="" />
                             <p className="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">Anant Kumar</p>
                         </div>
                         
