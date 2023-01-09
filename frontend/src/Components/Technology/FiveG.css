@@ -1,5 +1,8 @@
-
-
+html, body{
+    overflow-x: hidden;
+    min-height: 100vh;
+    max-width:100%;
+}
 .dawn{
     color:transparent;
     -webkit-text-stroke: 1px #fff;

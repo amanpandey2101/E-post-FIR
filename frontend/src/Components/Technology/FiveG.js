@@ -26,7 +26,7 @@ export default function FiveG() {
   hiddenElements.forEach((el) => observer.observe(el));
 
  useEffect(()=>{
-    AOS.init({duration:1500});
+    AOS.init({duration:1000});
  },[])
 
 
@@ -207,15 +207,17 @@ export default function FiveG() {
         <img className='relative h-72' src={require("./images/Airtel-5G-PLus-1.webp")} alt="" />
         </div>
         <section className="dark:bg-gray-800 dark:text-gray-100 ">
-          <div className="animationh container mx-auto space-y-6 sm:space-y-12 " data-aos="fade-up">
-            <a href=" " target={"_blank"} rel="noopener noreferrer" className="block max-w-sm gap-4 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl">
+          <div className="animationh container flex h-full mx-auto space-y-6 sm:space-y-12 mt-8" data-aos="fade-up">
+            <a href=" " target={"_blank"} rel="noopener noreferrer" className="block max-w-7xl max-[800px]:w-full gap-4 mx-auto  group hover:no-underline focus:no-underline lg:grid lg:grid-cols-10 dark:bg-gray-900 shadow-2xl ">
               <div className="p-6 space-y-2 lg:col-span-5">
                 <h3 className="text-4xl font-medium lg:text-6xl md:text-5xl relative top-6 pt-10 pl-10"> Upto 30x Faster</h3>
-                <img className=' h-16 relative left-2 top-28' src={require("./images/downloadicon.png")} alt="" />
+                <img className=' h-16 relative left-[0rem] top-28' src={require("./images/downloadicon.png")} alt="" />
               <h1 className=' text-red-700 lg:text-6xl sm:text-5xl text-4xl relative pt-12 left-12 '>Download Speed</h1>
-              <img src={require("./images/30x_faster.gif")} alt="" className="relative left-96 w-[40vh] h-68 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500 max-[800px]:visually-hidden" />
               </div>
-              
+              <div className='w-[55vw] relative left-72' >
+              <img src={require("./images/30x_faster.gif")} alt="" className="relative rounded sm:h-96 lg:col-span-7 dark:bg-gray-500 max-[800px]:visually-hidden" />
+   
+              </div>
             </a>
           </div>
           <div className="animationh container max-w-7xl mx-auto space-y-6 sm:space-y-12 mt-8" data-aos="fade-up">

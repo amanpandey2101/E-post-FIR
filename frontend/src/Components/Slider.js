@@ -17,46 +17,46 @@ export default function Slider() {
     <h1>Experience the new India</h1>
     </div>
  <div className="">
-      <div className="max-[700px]:h-[65vh]  max-[500px]:h-[50vh] relative mt-24 h-[90vh] pl-6 pr-6" data-aos="zoom-in" >
+      <div className="max-[700px]:h-[65vh]  max-[500px]:h-[40vh] relative mt-24 h-screen pl-4 pr-4" data-aos="zoom-in" >
         <Carousel className="overflow-y-hidden">
           <div>
             <img
-              className="w-screen h-fit  "
+              className="w-screen h-fit  max-[500px]:h-[40vh]  "
               src={require("../assets/images/mumbai2.jpg")}
               alt="..."
             />
           </div>
           <div>
             <img
-              className="w-screen h-fit  "
+              className="w-screen h-fit max-[500px]:h-[40vh] "
               src={require("../assets/images/tajhotel.webp")}
               alt="..."
             />
           </div>
           <div>
             <img
-              className="w-screen h-fit "
+              className="w-screen h-fit max-[500px]:h-[40vh]"
               src={require("../assets/images/mumbai.jpg")}
               alt=""
             />
           </div>
           <div>
             <img
-              className="w-screen h-fit "
+              className="w-screen h-fit max-[500px]:h-[40vh]"
               src={require("../assets/images/5G2.jpg")}
               alt=""
             />
           </div>
           <div>
             <img
-              className="w-screen h-fit  "
+              className="w-screen h-fit max-[500px]:h-[40vh] "
               src={require("../assets/images/unity.avif")}
               alt="..."
             />
           </div>
           <div>
             <img
-              className="w-screen h-fit "
+              className="w-screen h-fit max-[500px]:h-[40vh]"
               src={require("../assets/images/isro.jpg")}
               alt=""
             />
