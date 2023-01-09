@@ -124,10 +124,11 @@
     display: flex;
     flex-direction: column;
     left: 50vw;
-    background-color: rgb(241, 165, 1);
+    background: linear-gradient( 106.37deg, #ffd47e 100%, #ffcfd1 40.55% );
     padding: 1rem;
     border-radius: 10px;
     width: 45vw;
+    box-shadow:3px 2px 8px rgb(35, 32, 32);
 }
 .navbar-second-visible .nav-list li i{
     visibility: hidden;
@@ -455,12 +456,14 @@
 
 .dropdownmenu{
     display: none;
-  
+    
 }
 .navbarmenu:hover .dropdownmenu{
     display: inline-grid;
     position: absolute;
-    background: rgb(241, 160, 0);  
+    /* background: rgb(241, 160, 0);   */
+    background: linear-gradient( 106.37deg, #ffc750 100%, #ffcfd1 59.55% );
+   
     
 }
 .slider-text{

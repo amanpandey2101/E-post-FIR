@@ -18,6 +18,8 @@ export default function Navbar() {
 
     return () => { };
   }, []);
+
+
   return (
     <>
       <div
@@ -53,7 +55,7 @@ export default function Navbar() {
           <div className="navbarmenu inline-block">
             <i className="fa-solid fa-caret-down relative left-4"></i>
             <button className="menubutton p-6">Account</button>
-          <div className="dropdownmenu z-30 top-16 right-16   p-4 rounded-md ">
+          <div className="dropdownmenu z-30 top-16 right-16 p-8 rounded-xl shadow-md shadow-gray-600">
            <Link to='/dashboard' className="hover:bg-white rounded-md p-3" >Dashboard</Link>
            <Link className="hover:bg-white rounded-md p-3" to="/signin">Login</Link>
            <Link className="hover:bg-white rounded-md p-3" to="/register">Register</Link>
@@ -82,8 +84,8 @@ export default function Navbar() {
               </ul>
             </div> */}
           </div>
-          <div className="hamburger mr-3">
-            <i className="fa-solid fa-bars" onClick={handleClick}></i>
+          <div className="hamburger ">
+            <i className="fa-solid fa-bars relative right-8" onClick={handleClick}></i>
           </div>
         </div>
       </>
