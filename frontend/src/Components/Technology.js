@@ -59,10 +59,10 @@ export default function Technology() {
     </div>
 <section className="py-6 dark:bg-gray-800 relative " data-aos="zoom-in">
                 <div className="container flex justify-center p-4 mx-auto h-screen">
-                    <div className="grid grid-cols-1 sm:gap-4 mx-4 lg:grid-cols-2 sm:grid-cols-2">
+                    <div className="grid grid-cols-1 sm:gap-8 mx-4 lg:grid-cols-2 sm:grid-cols-2">
                         <div>
                             <a href="/web">
-                                <img className=" object-fill w-fit cursor-pointer hover:animate-pulse aspect-square h-[35vh] max-[640px]:h-[20vh] rounded-xl" style={{ boxShadow: "2px 2px 15px black" }}
+                                <img className=" object-fill w-fit relative cursor-pointer hover:animate-pulse aspect-square h-[35vh] max-[640px]:h-[20vh] rounded-xl md:top-5" style={{ boxShadow: "2px 2px 15px black" }}
 
                                     src={require("../assets/images/web3.webp")}
                                     alt=""/>
@@ -71,7 +71,7 @@ export default function Technology() {
                         </div>
                         <div>
                             <a href='/FiveG'>
-                                <img className="object-fill w-fit relative bottom-3 cursor-pointer hover:animate-pulse dark:bg-gray-500 h-[35vh] max-[640px]:h-[20vh] rounded-2xl" style={{ boxShadow: "2px 2px 15px black" }}
+                                <img className="object-fill w-fit relative max-[640px]:bottom-3 cursor-pointer hover:animate-pulse dark:bg-gray-500 h-[35vh] max-[640px]:h-[20vh] rounded-2xl md:top-5" style={{ boxShadow: "2px 2px 15px black" }}
                                     src={require("../assets/images/5Gindia.jpg")}
                                     alt="" />
                             </a>
@@ -97,14 +97,14 @@ export default function Technology() {
                         </div> */}
                         <div>
                             <a href="/cloud">
-                                <img className="object-fill w-fit relative bottom-6 cursor-pointer hover:animate-pulse dark:bg-gray-500 h-[35vh] max-[640px]:h-[20vh] rounded-2xl" style={{ boxShadow: "2px 2px 15px black" }}
+                                <img className="object-fill w-fit relative max-[640px]:bottom-6 cursor-pointer hover:animate-pulse dark:bg-gray-500 h-[35vh] max-[640px]:h-[20vh] rounded-2xl" style={{ boxShadow: "2px 2px 15px black" }}
                                     src={require("../assets/images/cloud-computing-virtualization.jpeg")}
                                     alt=""/> 
                             </a>
                         </div>
                         <div>
                             <Link to="/ai">
-                                <img className="object-fill w-fit cursor-pointer hover:animate-pulse dark:bg-gray-500 h-[35vh] max-[640px]:h-[20vh] relative bottom-8 rounded-2xl " style={{ boxShadow: "2px 2px 15px black" }}
+                                <img className="object-fill w-fit cursor-pointer hover:animate-pulse dark:bg-gray-500 h-[35vh] max-[640px]:h-[20vh] relative max-[640px]:bottom-8 rounded-2xl " style={{ boxShadow: "2px 2px 15px black" }}
                                     src={require("../assets/images/ai.jpg")}
                                     alt=""/> 
                             </Link>
