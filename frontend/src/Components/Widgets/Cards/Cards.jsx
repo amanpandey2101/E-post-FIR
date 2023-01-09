@@ -11,7 +11,7 @@ function Cards() {
     AOS.init({duration:800});
   },[]);
   return (
-    <div className='Cards w-full' data-aos="zoom-in">
+    <div className='Cards w-full mb-10' data-aos="zoom-in">
       {CardsData.map((card,index)=>{
         return(
           <div className="parentContainer" >
