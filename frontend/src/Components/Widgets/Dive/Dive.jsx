@@ -7,7 +7,7 @@ export default function Dive() {
   
   return (
     
-    <div className='diveCard mx-10 h-auto mt-10 rounded-2xl items-center shadow-md p-4 w-1/2 bg-white '>
+    <div className='diveCard mx-10 h-auto mb-10 rounded-2xl items-center shadow-md p-4 w-1/2 bg-white '>
         <img src={MessageIcon} alt=""/>
         <div className='flex flex-col w-full  items-center flex-wrap p-4'>
         <p className=' flex font-mono text-lg font-semibold text-black ml-5'>
@@ -18,7 +18,7 @@ export default function Dive() {
           </b>
         </p>
         <div className=' flex mt-4 mr-4 '>
-        <Link  className='diveBtn px-4 py-3 rounded-xl bg-blue bg-sky-100 text-sky-600'>
+        <Link to='/signin'  className='diveBtn px-4 py-3 rounded-xl bg-blue bg-sky-100 text-sky-600'>
           Have a Look!
         </Link>
         </div>

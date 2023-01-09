@@ -5,7 +5,7 @@ import Logo from '../images/ashokStambh.png'
 export default function Footer() {
     return (
 
-        <footer className="p-4 bg-white sm:p-6 w-screen mt-10 bottom-0">
+        <footer className="p-4 bg-white sm:p-6  mt-10 bottom-0">
             <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
                     <a className="flex items-center">

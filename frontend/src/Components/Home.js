@@ -7,10 +7,10 @@ import Footer from './Widgets/Footer/Footer'
 
 export default function Home() {
   return (
-    
     <div className="graphDiv flex flex-col px-10 pt-48 items-center">
-            <Cards/>
             <Dive/>
+            <Cards/>
+            
             {/* <Footer/> */}
     </div>
     

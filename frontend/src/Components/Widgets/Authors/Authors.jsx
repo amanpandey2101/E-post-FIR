@@ -4,11 +4,11 @@ import Anant from '../images/anant.jpg'
 
 export default function About() {
   return (
-    <>
+    <div className="flex">
       <div className="aboutContainer">
         <div className="roundedview">
           <div className="profileContainer">
-          <img src={Anant} alt="profilepic" className="pic" />
+          <img src={Anant} alt="profilepic" className="pic"/>
           </div>
           <div className="text">
             <b>Anant Kumar</b>
@@ -21,6 +21,7 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
+
   );
 }

@@ -61,7 +61,7 @@ export default function Navbar() {
             <i className="fa-solid fa-caret-down relative left-4"></i>
             <button className="menubutton p-6">Account</button>
           <div className="dropdownmenu z-30 top-16 right-16 p-8 rounded-xl shadow-md shadow-gray-600">
-           <Link to='/dashboard' onClick={mobile ? handleClick: null} className="hover:bg-white rounded-md p-3" >Dashboard</Link>
+           <Link to='/dashboard' className="hover:bg-white rounded-md p-3" >Dashboard</Link>
            <Link className="hover:bg-white rounded-md p-3" onClick={mobile ? handleClick: null} to="/signin">Login</Link>
            <Link className="hover:bg-white rounded-md p-3" onClick={mobile ? handleClick: null} to="/register">Register</Link>
            <Link className="hover:bg-white rounded-md p-3" onClick={mobile ? handleClick: null} to="/dashboard">Account settings</Link>
