@@ -165,7 +165,7 @@ export default function Login() {
                 <p>Log In</p>
               </button>
             </div>
-            <div className="flex flex-col align-center justify-center px-9 h-auto rounded-r-2xl p-5 bg-green-400">
+            <div className="flex signupLayoutLogin flex-col align-center justify-center px-9 h-auto rounded-r-2xl p-5 bg-green-400">
               <b className="text-white">Don't Have Account</b>
               <button className="cursor-hover mt-5 px-5 py-2 bg-white transition-all delay-100 rounded-2xl hover:tracking-wide">
                 <Link

@@ -5,6 +5,11 @@ import { useEffect } from "react";
 export default function Navbar() {
   const [mobile, setMobile] = useState(false);
   const [scroll, setScroll] = useState(false);
+  const [selected,setSelected] = useState(false);
+
+  const handleMobileClick = ()=>{
+    setSelected(true);
+  }
  
 
   const handleClick = () => {
@@ -25,7 +30,6 @@ export default function Navbar() {
       <div
         className={
           scroll? "  navbar-scrolled p-3 z-30 delay-50" : "  navbar z-30 "
-        
         }
       >
         <div className="navbar-first">
@@ -35,19 +39,20 @@ export default function Navbar() {
           />
           <h1 className="text-black">Emerging India</h1>
         </div>
+        <div className={selected ?'noView':'flex'}>
         <div
-          className={mobile ? "navbar-second-visible " : "navbar-second pr-7"}
+          className={mobile ? "navbar-second-visible" : "navbar-second pr-7"}
         >
           <ul className="flex nav-list text-black">
-            <Link to='/home' className="nav-mem relative group cursor-pointer p-2">
+            <Link to='/home' onClick={mobile ? handleClick : null} className="nav-mem relative group cursor-pointer p-2">
               <i className="navcomp fa-solid fa-house m-2"></i>
               Home
             </Link>
-            <Link to='/about' className="nav-mem relative group cursor-pointer p-2">
+            <Link to='/about' onClick={mobile ? handleClick : null} className="nav-mem relative group cursor-pointer p-2">
               <i className="navcomp fa-solid fa-info m-2"></i>
              About Us
             </Link>
-            <Link to='/gallery' className="nav-mem relative group cursor-pointer p-2">
+            <Link to='/gallery' onClick={mobile ? handleClick: null} className="nav-mem relative group cursor-pointer p-2">
               <i className="navcomp fa-brands fa-envira m-2"></i>
               Gallery
             </Link>
@@ -56,10 +61,10 @@ export default function Navbar() {
             <i className="fa-solid fa-caret-down relative left-4"></i>
             <button className="menubutton p-6">Account</button>
           <div className="dropdownmenu z-30 top-16 right-16 p-8 rounded-xl shadow-md shadow-gray-600">
-           <Link to='/dashboard' className="hover:bg-white rounded-md p-3" >Dashboard</Link>
-           <Link className="hover:bg-white rounded-md p-3" to="/signin">Login</Link>
-           <Link className="hover:bg-white rounded-md p-3" to="/register">Register</Link>
-           <Link className="hover:bg-white rounded-md p-3" to="/dashboard">Account settings</Link>
+           <Link to='/dashboard' onClick={mobile ? handleClick: null} className="hover:bg-white rounded-md p-3" >Dashboard</Link>
+           <Link className="hover:bg-white rounded-md p-3" onClick={mobile ? handleClick: null} to="/signin">Login</Link>
+           <Link className="hover:bg-white rounded-md p-3" onClick={mobile ? handleClick: null} to="/register">Register</Link>
+           <Link className="hover:bg-white rounded-md p-3" onClick={mobile ? handleClick: null} to="/dashboard">Account settings</Link>
           </div>                         
           </div>
 
@@ -84,7 +89,8 @@ export default function Navbar() {
               </ul>
             </div> */}
           </div>
-          <div className="hamburger ">
+          </div>
+          <div className="hamburger" >
             <i className="fa-solid fa-bars relative right-8" onClick={handleClick}></i>
           </div>
         </div>
