@@ -124,7 +124,7 @@
     display: flex;
     flex-direction: column;
     left: 50vw;
-    background: linear-gradient( 106.37deg, #ffd47e 100%, #ffcfd1 40.55% );
+    background: linear-gradient( 106.37deg, rgb(255, 225, 188)  100%, #ffcfd1 40.55% );
     padding: 1rem;
     border-radius: 10px;
     width: 45vw;
@@ -462,7 +462,7 @@
     display: inline-grid;
     position: absolute;
     /* background: rgb(241, 160, 0);   */
-    background: linear-gradient( 106.37deg, #ffc750 100%, #ffcfd1 59.55% );
+    background: linear-gradient( 106.37deg, rgb(255, 225, 188) 100%, #ffcfd1 59.55% );
    
     
 }
