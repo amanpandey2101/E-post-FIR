@@ -12,8 +12,8 @@ export default function Slider() {
  },[])
   return (
     <>
-   <div className="px-[2rem]">
-    <div className="slider-text pb-2 relative top-20 font-serif md:text-6xl text-5xl text-[#5e36ef] " data-aos="fade-right">
+   <div className="px-[2rem] bg-white">
+    <div className="galleryTitle slider-text pb-2 relative top-20 md:text-6xl " data-aos="fade-right">
     <h1>Experience the new India</h1>
     </div>
  <div className="">

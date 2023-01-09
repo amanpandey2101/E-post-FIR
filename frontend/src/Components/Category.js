@@ -39,7 +39,7 @@ export default function Category() {
                         </div> 
 
                         <div data-aos="zoom-out">
-                            <Link to="infras">
+                            <Link to="/infras">
                                 <img
                                     className="object-cover w-full cursor-pointer hover:animate-pulse h-[40vh] rounded-xl" style={{ boxShadow: "2px 2px 15px black" }}
                                     src={require("../assets/images/emerging.jpg")}
