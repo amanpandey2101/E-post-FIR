@@ -21,42 +21,42 @@ export default function Slider() {
         <Carousel className="overflow-y-hidden">
           <div>
             <img
-              className="w-fit h-fit  "
+              className="w-screen h-fit  "
               src={require("../assets/images/mumbai2.jpg")}
               alt="..."
             />
           </div>
           <div>
             <img
-              className="w-fit h-fit  "
+              className="w-screen h-fit  "
               src={require("../assets/images/tajhotel.webp")}
               alt="..."
             />
           </div>
           <div>
             <img
-              className="w-fit h-fit "
+              className="w-screen h-fit "
               src={require("../assets/images/mumbai.jpg")}
               alt=""
             />
           </div>
           <div>
             <img
-              className="w-fit h-fit "
+              className="w-screen h-fit "
               src={require("../assets/images/5G2.jpg")}
               alt=""
             />
           </div>
           <div>
             <img
-              className="w-fit h-fit  "
+              className="w-screen h-fit  "
               src={require("../assets/images/unity.avif")}
               alt="..."
             />
           </div>
           <div>
             <img
-              className="w-fit h-fit "
+              className="w-screen h-fit "
               src={require("../assets/images/isro.jpg")}
               alt=""
             />
