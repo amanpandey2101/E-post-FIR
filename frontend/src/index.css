@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Courgette&family=Kanit:wght@300&family=Roboto+Slab:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -168,6 +169,10 @@ html, body{
     display: flex;
     justify-content: space-between;
     background-color: white;
+}
+.emergingHead{
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
 }
 .image{
     width: 50rem;
