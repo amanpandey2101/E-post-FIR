@@ -10,13 +10,14 @@ export default function Dive() {
     <div className='diveCard mx-10 h-auto mb-10 rounded-2xl items-center shadow-md p-4 w-1/2 bg-white '>
         <img src={MessageIcon} alt=""/>
         <div className='flex flex-col w-full  items-center flex-wrap p-4'>
-        <p className=' flex font-mono text-lg  font-semibold text-black ml-5'>
+        <p className=' flex font-mono text-lg  font-semibold text-black md:ml-5'>
           Let's Have A Dive To New India
         </p>
         <p className='flex text-black font-mono '>
-          Introducing-<b className='text-yellow-500 max-[600px]:absolute max-[600px]:bottom-28 max-[600px]:pt-5 font-extrabold'> E-Post-FIR
-          </b>
+          Introducing< b className=' flex text-center'/> <br /> 
+          <b/>
         </p>
+        <b className='text-yellow-500 font-extrabold'>E-Post-FIR</b>
         <div className=' flex mt-4 mr-4 '>
         <Link to='/signin'  className='diveBtn px-4 py-3 rounded-xl bg-blue bg-sky-100 text-sky-600'>
           Have a Look!

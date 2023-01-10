@@ -7,7 +7,7 @@ import { Otp } from "../Components/Widgets/RegisterDetails/Otp";
 import { StepProgressBar } from "../Components/Widgets/StepProgressBar/StepProgressBar";
 import { RegInfo } from "../Components/Widgets/RegisterDetails/RegInfo";
 import axios from "axios";
-import Login2 from "../Components/Login2";
+
 
 export default function Signup() {
   const [index, setIndex] = useState(1);
