@@ -7,8 +7,8 @@ export default function Dive() {
   
   return (
     
-    <div className='diveCard mx-10 h-auto mb-10 rounded-2xl items-center shadow-md p-4 w-1/2 bg-white '>
-        <img src={MessageIcon} alt=""/>
+    <div className='diveCard h-auto mb-10 rounded-2xl items-center shadow-md p-4 md:w-1/2 w-screen bg-white '>
+        <img  src={MessageIcon} alt=""/>
         <div className='flex flex-col w-full  items-center flex-wrap p-4'>
         <p className=' flex font-mono text-lg  font-semibold text-black md:ml-5'>
           Let's Have A Dive To New India

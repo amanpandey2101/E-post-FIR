@@ -94,13 +94,13 @@ export default class RegisterDetails extends Component {
   render() {
     const { isLoading, confirmPassword } = this.state;
     return (
-      <div className="flex bg-white rounded-2xl justify-center pt-5 pb-5 w-[20vw]  max-[400px]:w-[80vw] shadow-md ">
+      <div className="flex bg-white rounded-2xl justify-center pt-5 pb-5 w-[20vw] max-[600px]:relative max-[600px]:ml-2 max-[600px]:w-[85vw] max-[678px]:bottom-10 max-[376]:top-0 max-[420px]:top-10  shadow-md ">
         <div className="Card flex  flex-col left-5">
           <div className="flex w-full justify-center items-strech align-middle items-center">
             <img className="w-10 p-1" src={Logo} alt="" />
             <b className="pl-7">Get Started</b>
           </div>
-          <form className="space-y-4 p-3 w-[15vw] max-[768px]:w-[50vw] max-[400px]:w-[80vw]" action="#">
+          <form className="space-y-4 p-3 w-[15vw] max-[768px]:w-[58vw] max-[400px]:w-[80vw]" action="#">
             <div>
               <input
                 type="text"

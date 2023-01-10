@@ -22,6 +22,9 @@ import About from './Components/Widgets/About';
 import Authors from './Components/Widgets/Authors/Authors';
 import AuthorAman from './Components/Widgets/Authors/AuthorAman';
 import Footer from './Components/Widgets/Footer/Footer';
+import ScrollToTop from './ScrollToTop';
+
+
 
 
 function App() {
@@ -53,7 +56,7 @@ function App() {
         <Route path='/aman' element={<AuthorAman/>}></Route>
       </Routes>
       <Footer/>
-     
+    <ScrollToTop/>
     </div>
   );
 }

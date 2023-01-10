@@ -4,12 +4,14 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 
+
 export default function Heritage() {
 	useEffect(()=>{
 		Aos.init({duration:500});
 	},[])
 	
   return (
+	<>
     <div className=' m-auto pt-20 '>
         <h1 className=' font-bold text-6xl ' data-aos="fade-left">Best Heritages Sites to Visit in India</h1>
       <section className="dark:bg-gray-800 dark:text-gray-100 ">
@@ -91,7 +93,9 @@ export default function Heritage() {
 		Explore More World Heritage Sites in India
 	</h1>
 		<Heritageslider/>
+	
 </section>
     </div>
+	</>
   )
 }
