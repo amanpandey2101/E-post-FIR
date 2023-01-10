@@ -8,7 +8,7 @@ export default function Arts() {
       <div>
         <ArtsNav/>
       </div>
-          <div className="relative top-20">
+          <div className="relative top-20 h-full overflow-y-hidden">
 
             <div className="mb-4 w-full max-w-screen-md relative top-0" style={{ height: "24rem" }}>
               <div className="w-fit h-fit"
@@ -31,10 +31,9 @@ export default function Arts() {
               <p className="pb-6">The earliest known Indian art sculptures were produced by the Indus Valley Civilization between 2,500 B.C. and 1,800 B.C. They created small terracotta and bronze figures that also represented humans and animals such as cows and monkeys. In the 6th century B.C., the rise of Buddhism paved way for religious-themed art, often in the form of stone and bronze sculptures. During this time, religious artists also experimented with the creation of vast temples carved in stone and decorated with Greek-influenced columns.</p>
               <img className='relative left-8' src="https://www.invaluable.com/blog/wp-content/uploads/sites/77/2019/04/2-copper-statue.jpg" alt="" />
 
-              <p className="pb-6">Sculpture was a common practice among Indian Buddhists and Hindus. Hinduism continued to be a main focus of Indian art for centuries, as sculptures of deities like Shiva were commonly produced. By the 16th century, Islam gained importance under the Mughal Empire and art production grew under Islamic rulers. During this time, the arts prospered and in 1631 construction began on the Taj Mahal.</p>
+              <p className="pb-36">Sculpture was a common practice among Indian Buddhists and Hindus. Hinduism continued to be a main focus of Indian art for centuries, as sculptures of deities like Shiva were commonly produced. By the 16th century, Islam gained importance under the Mughal Empire and art production grew under Islamic rulers. During this time, the arts prospered and in 1631 construction began on the Taj Mahal.</p>
 
-              <p className="pb-6">British involvement in India began in the 18th century, during which time they established art schools to promote European styles. As a result, local art styles merged with foreign influences and traditional art forms were often romanticized or exaggerated to appeal to European buyers. In 1947, India gained independence from the British empire which pushed local artists to search for a new style. Contemporary Indian art incorporates traditional elements and influences from the rich history of the country.</p>
-
+             
 
 
 
