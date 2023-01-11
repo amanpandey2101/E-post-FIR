@@ -36,7 +36,7 @@ export default function FiveG() {
       <div>
         <div className=' '>
 
-          <img className='h-screen w-screen max-[600px]:h-[65vh]:' src={require('./images/halo.jpg')} alt="" />
+          <img className='h-screen w-screen max-[600px]:h-[64vh]' src={require('./images/halo.jpg')} alt="" />
           <img className='absolute top-16 h-24'  src={require("./images/digitalindia-removebg-preview.png")} alt="" />
         </div>
         <div className='animationh dawn absolute top-44 text-4xl text-white lg:text-8xl md:text-6xl sm:text-5xl right-0 left-0  '>
