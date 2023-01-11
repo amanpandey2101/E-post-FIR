@@ -3,8 +3,8 @@ import React from "react";
 export default function Infrastructure() {
   return (
     <>
-      <div>
-        <div class="aspect-w-16 aspect-h-9 ">
+      <div className="bg-white">
+        {/* <div class="aspect-w-16 aspect-h-9 ">
           <iframe
             className=""
             src="https://drive.google.com/file/d/1964ecIRGLGPoOWX-cNPpJEpjCXmgTpKG/preview"
@@ -15,12 +15,15 @@ export default function Infrastructure() {
             allowfullscreen
             title="video"
           ></iframe>
-        </div>
+        </div> */}
 
         <div>
           <div className="pt-20 rounded-md ">
-            <h1 className=" font-bold text-6xl pb-8 ">
+            <h1 className="flex items-center text-center justify-center mb-10 emergingHead cursor-pointer font-bold text-6xl pb-8 ">
+              <p className="hover:bg-blue-100 hover:text-blue-900 hover:tracking-wider hover:p-4 hover:shadow-lg transition-all cursor-hover hover:rounded-xl">
               Emerging Tech Cities of India
+              </p>
+              
             </h1>
             <section className="dark:bg-gray-800 dark:text-gray-100 ">
               <div className="container max-w-6xl mx-auto space-y-6 sm:space-y-12">
@@ -28,10 +31,10 @@ export default function Infrastructure() {
                   href=" "
                   target={"_blank"}
                   rel="noopener noreferrer"
-                  className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl"
+                  className="block max-w-sm bg-cyan-200 text-cyan-600 hover:bg-cyan-300 hover:text-cyan-800 transition-all rounded-2xl gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900 shadow-2xl"
                 >
                   <div className="p-6 space-y-2 lg:col-span-5">
-                    <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">
+                    <h3 className="text-2xl font-semibold sm:text-4xl text-">
                       {" "}
                       Mumbai, Maharashtra
                     </h3>
@@ -39,7 +42,7 @@ export default function Infrastructure() {
                       December 14, 2022
                     </span>
                     <p>
-                      ndia’s economic capital is Mumbai. Mumbai is India’s most
+                      India’s economic capital is Mumbai. Mumbai is India’s most
                       developed metropolis, which comes as no surprise. It
                       houses the Reserve Bank of India, the Bombay Stock
                       Exchange, the National Stock Exchange, and the Mint, among
@@ -58,15 +61,15 @@ export default function Infrastructure() {
                   href=" "
                   target={"_blank"}
                   rel="noopener noreferrer"
-                  className="block max-w-sm gap-3 mx-auto sm:max-w-full max-[1024px]:flex max-[1024px]:flex-col-reverse group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900  shadow-2xl rounded-md"
+                  className="block rounded-2xl bg-cyan-200 text-cyan-700 hover:bg-cyan-300 hover:text-cyan-800 transition-all max-w-sm gap-3 mx-auto sm:max-w-full max-[1024px]:flex max-[1024px]:flex-col-reverse group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900  shadow-2xl"
                 >
                   <img
                     src={require("../assets/images/Delhi.jpg")}
                     alt=""
-                    className="object-cover w-full h-68 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500 "
+                    className="object-cover w-full h-68 rounded-l-2xl sm:h-96 lg:col-span-7 dark:bg-gray-500 "
                   />
                   <div className="p-6 space-y-4 lg:col-span-5">
-                    <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline ">
+                    <h3 className="text-2xl font-semibold sm:text-4xl ">
                       Delhi
                     </h3>
                     <span className="text-xs dark:text-gray-400 ">
