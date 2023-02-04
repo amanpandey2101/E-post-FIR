@@ -55,8 +55,6 @@ function App() {
         <Route path='/about' element={<About/>}></Route>
         <Route path='/anant' element={<Authors/>}></Route>
         <Route path='/aman' element={<AuthorAman/>}></Route>
-        
-
       </Routes>
       <Footer/>
     <ScrollToTop/>
